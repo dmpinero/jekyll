@@ -1,0 +1,17 @@
+---
+author: "Daniel"
+
+---
+
+{% include _header.html color="blue" %}
+
+<h1> Este es el contenido del archivo post.html dentro de la carpeta _layouts</h1>
+
+<hr>
+
+{{ content }}
+
+Este es el nombre del autor de la plantilla: {{ layout.author }}
+<br/>Y este el nombre del autor de la página {{ page.author }}
+<br/>Y este es el título de la página: {{ page.title }}
+<br/>Y este es el título del site : {{ site.title }}
